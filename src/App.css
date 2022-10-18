@@ -1,0 +1,71 @@
+
+body{
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+}
+.App{
+  background-color: dodgerblue;
+  color: white;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 10px;
+}
+h2{
+  text-align: center;
+}
+li.item{
+  list-style: none;
+  margin-top: 6px;
+}
+input{
+  width: 400px;
+  height: 32px;
+  border-radius: 5px;
+  border: none;
+}
+button{
+  height: 37px;
+  font-weight: bold;
+  background-color: orangered;
+  color: white;
+  border: none;
+}
+.todo-items{
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 5px;
+ background-color: black;
+ padding-left: 5px;
+ margin-left: -40px;
+ 
+}
+.checked-btn, .del-btn, .add{
+ width: 40px;
+ border: none;
+}
+.checked-btn{
+  color: green;
+  background-color: white;
+}
+.del-btn{
+  background-color: white;
+  color: red;
+  position: relative;
+  top: 1px;
+}
+.todo-completed{
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+button:hover{
+  cursor: pointer;
+  border: 1px solid black;
+}
+.add {
+  font-size: 25px;
+  position: relative;
+  top: 4px;
+  border-radius: 5px;
+}
